@@ -2,7 +2,7 @@ from input_handler import convert_input
 
 
 def main():
-	with open('test_input.txt') as i:
+	with open('input.txt') as i:
 		i_raw = i.readlines()
 
 	data = convert_input(i_raw)
